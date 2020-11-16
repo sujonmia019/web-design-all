@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+	
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.headersection{background: rgb(38,38,38); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(38,38,38,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(38,38,38,1) 0%,rgba(38,38,38,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(38,38,38,1) 0%,rgba(38,38,38,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#262626',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar-default {
+	background: rgb(38,38,38); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(38,38,38,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(38,38,38,1) 0%,rgba(38,38,38,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(38,38,38,1) 0%,rgba(38,38,38,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#262626',GradientType=0 ); /* IE6-9 */
+
+}
+.navbar-default .navbar-nav > li > a {
+	color: #d9d9d9;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{color:#EA6660;}
+#active{color:#EA6660;}
+
+.navbar {
+	padding: 15px 0px;
+	margin:0;
+}
+.bannersection{
+	background:#2C2C2C; 	
+	padding:130px 0px;
+	background-position:center center;
+	background-attachment:fixed;
+	
+}
+.banner{margin-top:80px;}
+.banner h2 {
+	font-family: 'Lato', sans-serif;
+	color: #d9d9d9;
+	font-size: 70px;
+	margin: 0px;
+}
+.banner p {
+	color: #d9d9d9;
+	font-family: 'Lato', sans-serif;
+	font-size: 42px;
+	line-height: 50px;
+}
+.mybutton {
+	background: #ff6760;
+	font-size: 20px;
+	color: #fff;
+	border: 0px;
+	padding: 10px 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.mybutton:hover{color:#fff;background:#ff6760;
+}
+
+.servicesection{
+	padding:80px;
+    background: url(../img/55.jpg)no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	}
+.service{}
+.service i {
+	font-size: 40px;
+	padding-bottom: 20px;
+	color: #D9D9D9;
+}
+.service h4 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	color: #D9D9D9;
+}
+.service:hover i,.service:hover h4{
+	color:#87d37c;
+}
+.service p{color: #D9D9D9;}
+
+.portfoliosection{
+	padding:40px 0px;
+	}
+.portfolio{}
+.portfolio h3 {
+	font-size: 30px;
+	color: #616161;
+}
+.portfolio p {
+	font-size: 20px;
+	color: #616161;
+}
+
+
+/*sort and filter*/
+
+
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+	display: inline-block;
+	padding: 0.5em 1.0em;
+	background: #ff6760;
+	border: none;
+	border-radius: 7px;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 0 1px white;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #595959;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #595959;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+	margin-bottom: 20px;
+	margin-top: 55px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+
+	border-radius: 7px;
+	margin-left: 0px;
+	margin-right: 6px;
+}
+
+/* ---- isotope ---- */
+
+.grid {
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+width:25%;
+border:5px solid #fff;
+}
+.element-item img{width:100%;}
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+.contactsection {
+	background: #313131;
+	padding: 60px 0px;
+}
+.contact{}
+.contact h2 {
+	color: #e0e0e0;
+	font-size: 30px;
+	font-weight:bold;
+}
+.contact p {
+	color: #bebebe;
+	font-size: 20px;
+}
+.ouraddress{ 
+max-width:500px;
+margin:0 auto;
+overflow:hidden;
+}
+.ouraddress p{}
+.lefttag {
+	font-size: 14px !important;
+	float: left;
+	background: url(../img/location.png)no-repeat scroll 4px 4px;
+	margin-right: 20px;
+	padding-left: 20px;
+}
+.righttag{
+	font-size: 14px !important;
+	float:left;
+	background: url(../img/telephone.png)no-repeat scroll 4px 4px;
+	padding-left: 20px;
+}
+.social {
+	padding-top: 15px;
+}
+.social i {
+	color: #fff;
+	margin-left: 5px;
+}
+.fb {
+	background: #5883c0;
+	font-size: 24px;
+	padding: 5px 12px;
+	border-radius: 18px;
+	width: 38px;
+	height: 37px;
+}
+.tm{
+	background: #63bee0;
+	font-size: 24px;
+	padding: 5px 12px;
+	border-radius: 20px;
+	width: 38px;
+	height: 37px;
+}
+.pn{
+	background: #d35051;
+	font-size: 24px;
+	padding: 8px 11px;
+	border-radius: 18px;
+	width: 38px;
+	height: 37px;
+}
+.ap {
+	background: #a4a4a4;
+	font-size: 24px;
+	padding: 6px 10px;
+	border-radius: 19px;
+	width: 38px;
+	height: 37px;
+}
+.footersection{padding:35px; background:#2c2c2c;}
+.footer1{}
+.footer1 p {
+	color: #bebebe;
+	font-size: 16px;
+}

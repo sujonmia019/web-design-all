@@ -1,0 +1,499 @@
+
+/*=================*/
+/*Basic Setup*/
+/*================*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: .5rem;
+}
+ul li:first-child{
+	margin-left: 0px;
+}
+/*=================*/
+/*HTML*/
+/*================*/
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+	text-rendering: optimizeLegibility;
+}
+:focus{
+	outline: 0;
+}
+/*========================*/
+/*Reusable Components*/
+/*=======================*/
+.row{
+	width: 75%;
+	margin: 0 auto;
+}
+section{
+	padding: 8rem 0;
+	text-align: center;
+	z-index: -9999;
+}
+
+.btn:link,
+.btn:visited,
+.btn
+{
+	text-decoration: none;
+	text-transform: uppercase;
+    color: #fff;
+    padding: 1rem 4.7rem;
+    font-size: 1.8rem;
+    border-radius: .5rem;
+    display: inline-block;
+    margin-top: 5rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+/*==============*/
+/*HADDING*/
+/*=============*/
+h1{
+	color: #fff;
+	text-align: center;
+	font-size: 3.1rem;
+}
+h2{
+	font-size: 3.5rem;
+	letter-spacing: .1rem;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+h2:after{
+	content: "";
+	display: block;
+	background: #14a58c;
+	height: .3rem;
+	width: 8.1rem;
+	margin: auto;
+
+}
+.shape:after{
+	content: "";
+	display: block;
+	background: #c8d9e5;
+	height: .3rem;
+	width: 8rem;
+	margin: auto;
+}
+h3{
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .1rem;
+}
+h4{
+	text-transform: uppercase;
+	color: #393939;
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+.text-description{
+    font-size: 1.7rem;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+}
+/*==============*/
+/*Paragrap*/
+/*=============*/
+p{
+	font-size: 1.6rem;
+	margin-top: 1.5rem;
+}
+
+
+/*========================*/
+/*Header Section*/
+/*========================*/
+header{
+	background: #87509c;
+	height: 85vh;
+	position: relative;
+}
+/***Main Navigation***/
+.min-logo{
+	float: left;
+	margin: 1.8rem 0; 
+    height: 3.0rem;
+    width: auto;
+}
+.min-nav{
+	float: right;
+	margin: 2rem 0;
+}
+.min-nav li a:link,
+.min-nav li a:visited{
+	color: #fff;
+	text-transform: uppercase;
+	padding: .4rem 1.5rem;
+	text-decoration: none;
+	font-size: 1.4rem;
+	border-radius: .4rem;
+	background: rgba(100, 58, 121, 0);
+	display: inline-block;
+	letter-spacing: .1rem;
+	transition: .3s;
+}
+/**Navigation Hover**/
+.min-nav li:hover a:link,
+.min-nav li:hover a:visited{
+	background: rgba(100, 58, 121, 1);
+}
+ .active{
+	background: rgba(100, 58, 121, 1);
+	border-radius: .4rem;
+}
+/**Sticky Navigation**/
+.manu{
+	background: #87509c;
+	z-index: 9999 !important;
+}
+
+.hero-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.hero-text{
+	width: 70rem;
+}
+.btn-hero:link,
+.btn-hero:visited{
+	background: #eb7d4b;
+	border-bottom: .4rem solid #c86a40;
+}
+.mobile-menu span{
+	color: #fff;
+	float: right;
+	font-size: 2.5rem;
+	margin: 1.8rem 0;
+	cursor: pointer;
+	display: none;
+}
+.overlary{
+	width: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, .9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	overflow: hidden;
+	transition: .5s;
+}
+.overlary-content{
+	position: relative;
+	top: 25%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+} 
+.overlary-content a{
+	text-decoration: none;
+	color: #999;
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	margin: 5px 0;
+}
+.overlary-content a:hover{
+	color: #fff;
+}
+.closebtn{
+	color: #fff;
+	float: right;
+	font-size: 4rem;
+	margin: 0 3rem;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+}
+/*========================*/
+/*Services Section*/
+/*========================*/
+.services-section{
+	color: #fff;
+	background: #17c2a4;
+}
+.service-icon{
+	height: 8.5rem;
+	margin-top: 4.5rem;
+	margin-bottom: 2rem;
+}
+
+/*========================*/
+/*Team Section*/
+/*========================*/
+.team-section{
+	background: #e7f1f8;
+	color: #393939;
+}
+/**Team images**/
+.team-img{
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	border-radius: 50%;
+	height: 12rem;
+	width: auto;
+}
+/**Team Media**/
+.team-link:link,
+.team-link:visited
+{
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: #30bae7;
+}
+/**Team Social Icons**/
+.social-icon{
+	margin-top: 2rem;
+	text-align: center;
+}
+.social-icon ul  li {
+	display: inline-block;
+	margin: 0 .5rem;
+}
+.social-icon ul  li a:link,
+.social-icon ul  li a:visited{
+color: #fff;
+}
+.social-icon ul  li a:link i:before{
+	background: #bdd1df;
+	font-size: 1.7rem;
+	border-radius: 50%;
+	display: inline-block;
+	padding: .8rem;
+	height: 1.8rem;
+	width: 1.8rem;
+	transition: .3s;
+}
+/**Social Icons Hover**/
+.social-icon ul  li a:link:hover i:before{
+	background: #3c5499;
+	transform: rotate(30deg);
+}
+
+/*========================*/
+/*Skills Section*/
+/*========================*/
+.skills-section{
+	background: #fff;
+	color: #393939;
+}
+
+
+/*========================*/
+/*Portfolio Section*/
+/*========================*/
+.portfolio-section{
+	background: #ffdd99;
+	color: #393939;
+}
+.portfolio-section .p-shape:after{
+	background: #ebc985;
+	display: block;
+	height: .3rem;
+	width: 7rem;
+	margin: auto;
+}
+.portfolio-section .p-text {
+    width: 36%;
+    margin-left: 32%;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+}
+/**================================
+Portfolio Filltering Button 
+===================================**/
+.portfolio-section .p-fillter{
+	text-align: center;
+	margin: 3rem 0;
+}
+.portfolio-section .p-fillter button{
+	background: #ebc985;
+	border:none;
+	border-radius: .3rem;
+	padding: .6rem 2rem;
+	margin: 0 .5rem;
+	font-size: 1.5rem;
+	color: #393939;
+	text-transform: uppercase;
+	transition: .5s;
+	cursor: pointer;
+}
+/**Button Fillter Hover**/
+.portfolio-section .p-fillter button:hover{
+	box-shadow: inset 0 .3rem .5rem #fff;
+}
+.portfolio-section .col:nth-child(3){
+	margin-left: 0;
+}
+/**Button Fillter Active Bg-Color**/
+.portfolio-section .p-fillter .mixitup-control-active{
+	background: #fff;
+}
+/** Filltering images**/
+.portfolio-section .fillter-img{
+	width: 100%;
+	height: auto;
+}
+.box1{
+	margin-bottom: 3rem;
+}
+/**All portfolio Button**/
+.p-btn{
+	background: #17c2a4;
+	border-bottom: .4rem solid #14a58c;
+}
+
+/**==================
+Aboun us Section
+====================**/
+.about-us-section{
+	background: #d74680;
+	color: #fff;
+	text-align: center;
+}
+.about-us-section .about-text:after{
+	background: #b73c6d;
+	height: .3rem;
+	width: 7rem;
+	display: block;
+	margin: auto;
+}
+.about-us-section .col:nth-child(3){
+	margin-left: 0;
+}
+.about-us-section .col:nth-child(1),
+.about-us-section .col:nth-child(2){
+	margin-top: 5rem;
+}
+.about-us-section .col:nth-child(3),
+.about-us-section .col:nth-child(4){
+	margin-top: 5rem;
+}
+.about-us-section .a-image{
+	float: left;
+	width: 10rem;
+	margin-right: 3rem;
+}
+.about-us-section .a-image .testimonial{
+	height: 8rem;
+	border-radius: 50%;
+}
+.about-us-section .a-text{
+	float: left;
+	width: 30rem;
+	display: block;
+}
+.about-us-section .a-text p{
+	margin-top: 0;
+	font-style: italic;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	text-align: left;
+}
+.about-us-section .a-text h4{
+	color: #fff;
+	font-size: 2rem;
+	text-align: left;
+}
+.about-us-section .a-text span{
+	color: #facd96;
+	font-size: 1.5rem;
+	text-align: left;
+	display: block;
+}
+
+/**==================
+Contact us Section
+====================**/
+.contact-section{
+	background: #3c5499;
+	color: #fff;
+}
+.contact-hero:after{
+	background: #273a71;
+	display: block;
+	height: .3rem;
+	width: 8rem;
+	margin: auto;
+}
+.contact-section form{
+	margin-top: 5rem;
+	width: 80%;
+	margin-left: 10%;
+}
+.contact-section textarea{
+	height: 15rem;
+}
+.contact-section textarea::placeholder{
+	color: #fff;
+	opacity: 1;
+	font-size: 1.4rem;
+	font-family: 'Titillium Web', sans-serif;
+}
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea{
+	background: #273a71;
+	border: .1rem solid #273a71;
+	width: 100%;
+	padding: 1.2rem 1rem;
+	border-radius: .3rem;
+	margin-bottom: 1.2rem;
+	color: #fff;
+	font-size: 1.4rem;
+}
+.contact-section form input::placeholder{
+	color: #fff;
+	opacity: 1;
+}
+.c-send{
+	background: #30bae7;
+	border:0;
+	border-bottom: .4rem solid #299ec5;
+}
+
+
+.footer-section{
+	background: #344b8e;
+	padding: 2rem 0;
+	text-align: center;
+	border-top: 0.1rem solid #6a789e;
+}
+.footer-section ul li{
+	margin:0 2rem;
+}
+.footer-section ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	transition: .4s;
+}
+.footer-section ul li:hover a{
+	color: #30bae7;
+}
+
+

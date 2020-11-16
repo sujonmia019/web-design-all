@@ -1,0 +1,521 @@
+/*
+  Theme Name: Name - Gloden HTML5 Template
+  Author:
+  Support: sujonbdjoin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. Why me
+5. We Work
+6. advertisers 
+7. Agencies
+7. video-area
+8. About area
+9. footer. 
+*/
+
+
+/*=================*/
+/*Basic Setup*/
+/*================*/
+
+html{
+	font-size: 62.26%;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 1.5rem;
+	color: #000;
+}
+h2{
+	font-size: 4.8rem;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 3rem;
+}
+h3{
+	font-size: 3.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+}
+p{
+	margin-bottom: 1.5rem;
+	color: #767676;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	float: left;
+	margin-right: 2.5rem;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+/*======================*/
+/*Reusable Components*/
+/*======================*/
+.container{width: 117rem;margin: auto;}
+.col-2{width: 16.66%;float: left;padding: 0 1.5rem;}
+.col-3{width: 25%;float: left;padding: 0 1.5rem;}
+.col-6{width: 50%;float: left;padding: 0 1.5rem;}
+.col-4{width: 33.33%;float: left;padding: 0 1.5rem;}
+.col-12{width: 100%;padding: 0 1.5rem;}
+.row{margin: 0 -1.5rem;}
+.fix{overflow: hidden;}
+.text-center{
+	text-align: center;
+}
+.py{padding: 10rem 0;}
+
+
+/*====================*/
+/*HEADER SECTION*/
+/*===================*/
+header {
+	background-image: url(../img/bg-banner.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 5rem;
+	height: 110vh;
+	z-index: -9999;
+}
+/*HEADER HERO TEXT*/
+.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	width: 50%;
+}
+.hero-text h1{
+	color: #fff;
+	font-size: 6rem;
+	font-weight: 700;
+}
+.hero-text a{
+	background-image: -webkit-gradient(linear, left top, right top, from(#de4427) , to(#f39f32));
+	background-image: -o-linear-gradient(left, #de4427 , #f39f32);
+	background-image: linear-gradient(to right, #de4427 , #f39f32);
+	padding: 2rem 3.5rem;
+	display: inline-block;
+	border-radius: 3.5rem;
+	font-weight: 500;
+}
+/*MAIN-LOGO*/
+.logo{
+	margin-top: 1rem;
+}
+.logo img{
+	width: 23rem;
+	height: 4rem;
+}
+/*MAIN-NAVIGATION*/
+.manu nav ul li{
+	margin-right: 1.7rem;
+	position: relative;
+}
+.manu nav ul li:last-child{
+	margin-right: 0;
+}
+.manu nav ul li a{
+	padding: 2.2rem 0;
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	-webkit-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+.manu nav ul li:hover > a{
+	color: #F39C31;
+}
+/*SUB-MENU*/
+.manu nav ul li > ul.sub-menu {
+	position: absolute;
+	top: 120%;
+	left: 0;
+	background: rgba(0, 3, 13, 0.50);
+	width: 15rem;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: .5s ease;
+	border-top: none;
+	border-bottom: .1rem solid #F39E31;
+	border-right: none;
+	border-left: none;
+	z-index: 9999;
+}
+.manu nav ul li:hover > ul.sub-menu{
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+.manu nav ul li ul.sub-menu li{
+	float: none;
+	margin-right: 0;
+}
+.manu nav ul li ul.sub-menu li a{
+	color: #fff;
+	padding: 1rem 1.5rem;
+	-webkit-transition: background .5s ease;
+	-o-transition: background .5s ease;
+	transition: background .5s ease;
+	z-index: 9999;
+}
+.manu nav ul li:hover ul.sub-menu li:hover > a{ 
+	background: -webkit-gradient(linear,left top, left bottom,from(#F39E31),to(#DE4527)); 
+	background: -o-linear-gradient(#F39E31,#DE4527); 
+	background: linear-gradient(#F39E31,#DE4527);
+	z-index: -9999;
+}
+/*SUB-MENU-2*/
+.manu nav ul li ul.sub-menu li > ul.sub-menu {
+	left: 100%;
+	top: 0;
+}
+/*HEADER-TOP-RIGHT*/
+.header-right{
+	text-align: right;
+}
+.language, .header-button{
+	float: left;
+}
+.header-button a, .language ul li a{
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: 400;
+	padding: 2.2rem 0;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header-button a{
+	color: #000;
+	background: #fff;
+	padding: 1.6rem 3rem;
+	border-radius: 3.5rem;
+	font-weight: 500;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.header-button a:hover{
+	color: #fff;
+	background: #F39E31;
+}
+.language ul li{
+	float: none;
+}
+
+/*SERVCES AREA*/
+.services-area {
+	z-index: 9999;
+	margin-top: -15rem;
+	padding-bottom: 1.5rem;
+}
+.single-services {
+	padding: 5rem 4rem;
+	background: #fff;
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0, 0.2);
+	        box-shadow: 0px 5px 15px 0px rgba(0,0,0, 0.2);
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+/*SERVICE COLUM HOVER*/
+.single-services:hover{background: #f3a032;}
+.single-services:hover h2{color: #fff;}
+.single-services:hover p{color: #fff;}
+.single-services:hover a.btn{background: #fff; color: #000;}
+.single-services:hover a{color: #fff;}
+
+/*SERVICE COLUM HOVER ACTIVE*/
+.actives{background: #f3a032;}
+.actives h2{color: #fff;}
+.actives p{color: #fff !important;}
+.actives a.btn{background: #fff!important; color: #000 !important;}
+.actives a{color: #fff !important;}
+
+.single-services h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	-webkit-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	transition: all.5s ease;
+}
+.single-services p {
+	font-size: 1.4rem;
+	line-height: 2rem;
+	font-weight: 400;
+	margin-bottom: 3rem;
+	color: #7d7d7d;
+	-webkit-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	transition: all.5s ease;
+}
+.single-services a.btn {
+	background: #f3a032;
+	padding: 1.5rem 2.5rem;
+	display: inline-block;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 3.5rem;
+	margin-right: 2rem;
+	-webkit-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	transition: all.5s ease;
+}
+.single-services a {
+	color: #000;
+	font-weight: 500;
+	font-size: 1.4rem;
+	text-transform: capitalize;
+	-webkit-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	transition: all.5s ease;
+}
+
+/*WHY WE AREA*/
+.why-we-area{padding: 10rem 0;}
+.why-we-text{text-align: center;}
+.why-we-text p{font-size: 1.8rem;color: }
+.choose-wapper > img {
+	padding-top: 7rem;
+	width: 3.2rem;
+	height: auto;
+}
+.choose-wapper > p {
+	margin-top: 4rem;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+}
+
+/*WHY WE AREA*/
+.how-work-area{
+	padding: 10rem 0;
+	background: #f6f6f6;
+}
+.work{
+	text-align: center;
+	margin-top: 12rem;
+	background: #fff;
+	padding: 5rem 5rem;
+	-webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+	-webkit-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	transition: all.5s ease;
+}
+.work:hover{background: #f3a032;}
+.work:hover h3{color: #fff;}
+.actives{
+	background: #f3a032;
+}
+.actives h3{
+	color: #fff;
+}
+
+/*ADVERTISERS AREA*/
+.advertisers-area{
+	padding: 10rem 0;
+}
+.advertisers-test{
+	padding-top: 20.7rem;
+}
+.advertisers-test > p{}
+.advertisers-test > a{
+	color: #f3a032;
+	text-decoration: underline;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.downloads{
+	margin-top: 4.2rem;
+}
+.downloads > img{
+	width: 20rem !important;
+	height: 6.5rem !important;
+	margin-right: 2.5rem;
+	display: inline-block !important;
+}
+.downloads > img:last-child{
+	margin-right: 0;
+}
+.mobile{
+	text-align: right;
+}
+.mobile > img{
+	width: 41.5rem !important;
+	height: 83.5rem !important;
+	display: inline-block !important;
+}
+
+/*AGENCIES AREA*/
+.Agencies{padding: 10rem 0;}
+.Agencies-text{
+	text-align: left;
+	margin-bottom: 8.5rem;
+}
+.Agencies-wapper{}
+.Agencies-wapper ul{}
+.Agencies-wapper ul li{
+	position: relative;
+	font-size: 1.8rem;
+	margin-bottom: 6.5rem;
+	line-height: 3rem;
+	color: #767676;
+	padding-left: 5rem;
+	margin-right: 0;
+}
+.Agencies-wapper ul li:last-child{
+	margin-bottom: 0;
+}
+.Agencies-wapper ul li:before{
+	content: "\f00c";
+	font-family: "FontAwesome";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #f3a032;
+	color: #fff;
+	border-radius: 50%;
+	padding: 0.1rem 0.7rem;
+}
+
+/*VIDEO AREA*/
+.video-area{
+	padding: 10rem 0;
+}
+.Publishers-hero{
+	width:56%;
+	text-align: center;
+	margin-left: 22%;
+}
+.Publishers-hero h2{color: #fff;}
+.video-icons{
+	text-align: center;
+	margin-top: 10rem;
+}
+.video-icons{
+	position: relative;
+}
+.video-icons > a > img{
+	width: 7rem;
+	height: 7rem;
+}
+
+/*ABOUT-US AREA*/
+.about-hero {
+	width: 66%;
+	margin-left: 17%;
+}
+.about-wapper {
+	margin-top: 10rem;
+	-webkit-border-bottom: .3rem solid transparent;
+	-moz-border-bottom: .3rem solid transparent;
+	border-bottom: .3rem solid transparent;
+	-webkit-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	transition: all.5s ease;
+}
+.about-wapper:hover{
+	-webkit-border-bottom: .4rem solid #f3a032;
+	-moz-border-bottom: .4rem solid #f3a032;
+	border-bottom: .3rem solid #f3a032;
+}
+.activate{
+	-webkit-border-bottom: .4rem solid #f3a032;
+	-moz-border-bottom: .4rem solid #f3a032;
+	border-bottom: .3rem solid #f3a032;
+	text-align: center;
+}
+.about-wapper img {
+	margin-bottom: 4rem;
+}
+.about-wapper p {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #666;
+}
+/*GOOGLE-MAP AREA*/
+.map-address{
+	background: #fff;
+	color: #000;
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+.map-address > span{
+	color: #b0b0b0;
+	text-transform: capitalize;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	display: block;
+}
+.map-address > h3{
+	margin-bottom: 3.5rem;
+	font-size: 3rem;
+	text-transform: lowercase;
+}
+.map-address > h3:last-child{
+	margin-bottom: 0;
+}
+/*FOOTER AREA*/
+.footer-area{
+	background: #fff;
+	padding: 8.5rem 0;
+}
+.copyright{
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	display: inline-block;
+}
+.copyright ul{
+	text-align: center;
+	display: inline-block;
+}
+.copyright > ul li a{
+	color: #767676;
+	font-size: 1.8rem;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.copyright > ul li a:hover{
+	color: #f3a032;
+}

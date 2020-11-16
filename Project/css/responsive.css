@@ -1,0 +1,299 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .main-menu nav ul li {
+        margin-right: 40px;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-top-area {
+        padding: 0 20px;
+    }
+    .header-logo-area {
+        padding: 0 20px;
+    }
+    .main-menu nav ul li {
+        margin-right: 29px;
+    }
+    .quite-btns > a {
+        padding: 10px 30px;
+    }
+    .wapper {
+        padding: 0 20px;
+    }
+    .slider-height {
+        height: 600px;
+    }
+    .slider-right > img {
+        width: 65% !important;
+    }
+    .slider-content h1 {
+        font-size: 54px;
+    }
+    .slider-content > p {
+        padding-right: 100px;
+    }
+    .slider-content > a {
+        margin-top: 10px;
+    }
+    .future p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .buy-now {
+        padding-left: 50px;
+        padding-bottom: 70px;
+    }
+    .counter-area .counter-2 > span {
+        font-size: 49px;
+    }
+    .blog-inner a > h3 {
+        font-size: 16px;
+    }
+    .blog-inner > p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .blog-wapper {
+        padding: 15px 30px;
+    }
+    .blog-info {
+        padding-top: 15px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-area {
+        padding: 0 15px;
+    }
+    .logo {
+        margin-left: 15px;
+        padding-bottom: 20px;
+    }
+    .header-logo-area {
+        padding-top: 20px;
+    }
+    .slider-height {
+        height: 500px;
+    }
+    .slider-content h1 {
+        font-size: 50px;
+    }
+    .slider-content > a {
+        margin-top: 10px;
+    }
+    .slider-content > a {
+        padding: 15px 35px;
+    }
+    .future-hero h2 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .future h4 {
+        font-size: 23px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .future p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .cta-img {
+        padding-top: 100px;
+    }
+    .buy-img {
+        background-size: cover;
+        background-position: center center;
+    }
+    .buy-now {
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .buy-now h2 {
+        font-size: 26px;
+    }
+    .buy-now h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .buy-now p {
+        font-size: 15px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+    .portofilo-menu button {
+        font-size: 15px;
+        padding: 8px 11px;
+    }
+    .tesimonial > p {
+        font-size: 15px;
+    }
+    .blog-content a > h3 {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .latest-blog-content > p {
+        font-size: 14px;
+    }
+    .footer-widget > h3 {
+        font-size: 22px;;
+    }
+    .footer-link ul li {
+        width: 100%;
+        float: none;
+    }
+    .footer-link ul li a {
+        line-height: 28px;
+        font-size: 15px;
+    }
+    .footer-info ul > li {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .footer-newsletter > p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .footer-newsletter > form > button {
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .wapper {
+        padding: 0 25px;
+    }
+    .header-logo-area {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .logo {
+        margin-left: 15px;
+        padding-bottom: 20px;
+    }
+    .logo a > img {
+        width: 100%;
+    }
+    .social-icons > a {
+        margin-right: 0;
+    }
+    .slider-hero h1 {
+        font-size: 40px;
+    }
+    .search-box form > input {
+        padding: 10px;
+        width: 90%;
+        border-radius: 5px;
+    }
+    .search-box form > button {
+        padding: 0 30px;
+        border-radius: 5px;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 30px;
+    }
+    .search-box form > input::placeholder{
+        font-size: 20px;
+    }
+    .header-top-area {
+        padding: 0 10px;
+    }
+    .slider-content h1 {
+        font-size: 35px;
+        color: #333;
+        margin-top: 15px;
+    }
+    .slider-content > p {
+        font-size: 17px;
+        margin-top: 25px;
+        padding-right: 0;
+    }
+    .slider-content > a {
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .slider-height {
+        height: 350px;
+    }
+    .future-hero h2 {
+        font-size: 27px;
+    }
+    .buy-now {
+        margin-top: 20px;
+    }
+    .future h4 {
+        font-size: 20px;
+    }
+    .future p {
+        font-size: 14px;
+    }
+    .buy-now {
+        padding: 0;
+    }
+    .buy-now h2 {
+        font-size: 25px;
+    }
+    .buy-now h5 {
+        line-height: 23px;
+    }
+    .buy-now p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .buy-now > a {
+        padding: 12px 35px;
+        margin-top: 30px;
+    }
+    .portofilo-menu button {
+        font-size: 16px;
+        padding: 5px 15px;
+        margin-bottom: 10px;
+    }
+    .cap > img {
+        width: 100%;
+    }
+    .brand-logo > img {
+        display: inline-block;
+    }
+    .counter-area .counter-2 > span {
+        font-size: 40px;
+    }
+    .footer-info,
+    .footer-link,
+    .footer-newsletter {
+        margin-top: 15px;
+    }
+    .footer-social {
+        text-align: center;
+    }
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-area {
+        padding: 0;
+    }
+    .header-logo-area {
+        padding-top: 20px;
+    }
+    .logo {
+        margin-left: 15px;
+        padding-bottom: 20px;
+    }
+    .slider-hero h1 {
+        font-size: 56px;
+    }
+}

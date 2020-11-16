@@ -1,0 +1,415 @@
+@media only screen and (max-width: 128rem) {
+	.reffer {
+	font-size: 1.4rem;
+	}
+}
+@media only screen and (max-width: 102.4rem) {
+	header .span_1_of_3:nth-child(1) {
+		width: 17%;
+	}
+	header .span_1_of_3:nth-child(2) {
+		width: 50.78%;
+	}
+	header .span_1_of_3:nth-child(3) {
+		width: 29%;
+	}
+	.hero-text {
+		width: 45%;
+	}
+	header{
+		background-position: center center;
+		background-attachment: fixed;
+		height: 80vh;
+	}
+	.search-box {
+		width: 100%;
+	}
+	.select {
+		position: absolute;
+		right: 42%;
+		top: 50%;
+	}
+	.domain {
+		margin-left: 0;
+	}
+	.domain ul {
+		text-align: center;
+	}
+	.priceing .span_1_of_3:nth-child(1) {
+	    width: 32.26%;
+	}
+	.priceing .span_1_of_3:nth-child(2) {
+	    width: 32.26%;
+	}
+	.priceing .span_1_of_3:nth-child(2) {
+	    width: 32.26%;
+	}
+	.faq-q,
+	.faq-end p
+	{
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+	.t-bottom .t-img {
+		margin-right: 0;
+	}
+	.news {
+		padding: 0;
+		margin-top: 2rem;
+	}
+	.news-author img {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+	}
+	.news-date span{
+		font-size: 1.3rem;
+	}
+	.news-feed h5,
+	.news-feed p{
+		padding: 0;
+	}
+	.reffer {
+		font-size: 1.2rem;
+		padding: 1.5rem 2rem;
+		margin-top: 6rem;
+	}
+}
+
+@media only screen and (max-width: 98rem){
+	header {
+		background-attachment: scroll;
+		height: 100vh;
+	}
+	.news {
+	    padding: 0 1rem;
+	}
+	.news-img {
+		width: 100%;
+		height: 22rem;
+	}
+	.news-feed h5, .news-feed p {
+	    padding: 0 1rem;
+	}
+	.news-date span {
+		line-height: 2rem;
+		display: block;
+		margin-right: 0;
+	}
+	.footer-top h4 {
+		font-size: 2.4rem;
+	}
+	.reffer {
+	    font-size: 1.2rem;
+	    padding: 1.5rem 1rem;
+	    margin-top: 6rem;
+	}
+	.footer-left-top {
+		padding: 2.5rem 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 76.8rem){
+	header {
+	    background-position: center center;
+	    background-attachment: scroll;
+	    height: 80vh;
+	}
+	.main-nav, .main2-nav {
+		display: none;
+	}
+	.logo {
+		width: 13rem;
+		height: auto;
+		margin: .5rem 0;
+	}
+	.hero-text {
+		width: 80%;
+		font-size: 5.5rem;
+	}
+	.select {
+    	display: none;
+	}
+	.search-btn {
+		font-size: 1.5rem;
+		padding: 1.5rem 3rem;
+	}
+	.search-icon {
+		font-size: 1.5rem;
+	}
+	.domain ul li {
+		margin-right: .5rem;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.domain ul li a:link, .domain ul li a:visited {
+		font-size: 1.4rem;
+	} 
+	h2{
+		font-size: 5rem;
+	}
+	.faq-right {
+		overflow: hidden;
+	}
+	.faq-images {
+		overflow: hidden;
+	}
+	.faq-img {
+		width: 100%;
+		height: auto;
+		margin-top: 19rem;
+	}
+	.news-img {
+	    width: 100%;
+	    height: auto;
+	}
+	.news-feed h5 {
+		font-size: 1.8rem;
+	}
+	.f-btn {
+		padding: 1rem 1rem;
+	}
+	.footer-left p {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	.address li {
+		margin: 1rem 0;
+	}
+	.address li a {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	.footer-left {
+		margin-right: 0;
+	}
+	.footer-right {
+		width: 70%;
+		float: right;
+		padding-left: 2rem;
+	}
+	.reffer-text {
+		float: left;
+		width: 60%;
+		margin-top: 2.5rem;
+	}
+	.reffer {
+		float: right;
+		width: 35%;
+		margin-top: 2.5rem;
+	}
+	.testimonial-hero {
+		width: 100%;
+		color: #fff;
+		text-align: left;
+	}
+	.search {
+		padding: 2rem 3.5rem;
+	}
+}
+
+@media only screen and (max-width: 48rem){
+	header {
+	    background-position-x: 30%;
+	    background-attachment: scroll;
+	    height: 50vh;
+	}
+	.hero-service {
+		width: 60%;
+		float: left;
+		text-align: left;
+	}
+	.hero-btn {
+		float: right;
+		width: 40%;
+		text-align: right;
+	}
+	.btn:link, .btn:visited, .btn {
+		border: .1rem solid #926bfa;
+		padding: 1.3rem 3rem;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	.header-btn {
+		margin-top: -0.5rem;
+	}
+	.price-area .span_1_of_3 {
+	    width: 96.78%;
+	}
+	.choose-us .span_1_of_3{
+		width: 96.78%;
+	}
+	.news-feed-area .span_1_of_3 {
+		width: 96.78%;
+	}
+	.news-date span {
+	    line-height: 7rem;
+	    display: inline-block;
+	    margin-right: 1rem;
+	    font-size: 1.5rem;
+	}
+	.news {
+	    margin: 2rem 0;
+	}
+	.news-feed h5 {
+	    font-size: 1.9rem;
+	}
+	.news-feed-area .span_1_of_5{
+		width: 32.26%;
+	}
+	.faq .span_1_of_5{
+		width: 96.78%;
+	}
+	.faq-img {
+	    margin-top: 0;
+	}
+	h2 {
+	    font-size: 3.1rem;
+	}
+	.testimonial-hero {
+		width: 100%;
+		color: #fff;
+		text-align: left;
+	}
+	.p-hero-text {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.money {
+		float: left;
+		width: 31%;
+	}
+	.footer-btn {
+		float: right;
+		width: 69%;
+	}
+	.footer-top {
+		margin-bottom: 3rem;
+	}
+	.footer-left {
+		width: 100%;
+		float: left;
+	}
+	.footer-right {
+	    width: 100%;
+	    float: right;
+	    margin-top: 10rem;
+	    padding-left: 0;
+	}
+	.footer-right h5 {
+		font-size: 1.8rem;
+	}
+	.host-services li a {
+		font-size: 1.4rem;
+		color: #9da7c9;
+		line-height: 2.2rem;
+	}
+	.address li a {
+	    font-size: 1.4rem;
+	    line-height: 2rem;
+	}
+	.reffer-text {
+	    float: left;
+	    width: 70%;
+	    margin-top: 2.5rem;
+	}
+	.reffer {
+	    float: right;
+	    width: 30%;
+	    margin-left: 0;
+	    margin-top: 3.5rem;
+		padding: 1.5rem .5rem;
+		font-size: 1.1rem;
+	}
+	.search {
+		width: 100%;
+	}
+	.search-btn {
+		margin-left: 3rem;
+	}
+	.domain ul li {
+	    margin-right: 0rem;
+	    margin-bottom: 3rem;
+	    margin-left: 0;
+	    margin-top: 0;
+	}
+	.hero-text {
+		margin-top: 6.5rem;
+	}
+	header {
+	    background-attachment: scroll;
+	    height: 50vh;
+	    background-position: center center;
+	}
+}
+
+@media only screen and (max-width: 32rem){
+	html {
+		font-size: 47.5%;
+		scroll-behavior: smooth;
+	}
+	header {
+	    background-attachment: scroll;
+	    height: 54vh;
+	    background-position: center center;
+	}
+	h1 {
+	    font-size: 3.5rem;
+	}
+	.search-btn {
+	    font-size: 1.5rem;
+	    padding: 1.5rem 2rem;
+	}
+	.domain ul li {
+	    margin-right: 2rem;
+	}
+	.btn:link, .btn:visited, .btn {
+	    border: .1rem solid 
+	    #926bfa;
+	    padding: 1rem 2rem;
+	}
+	.news-date span {
+	    margin-right: .5rem;
+	}
+	.news-feed-area .span_1_of_5 {
+		width: 50%;
+	}
+	.money {
+	    float: left;
+	    width: 35%;
+	}
+	.footer-btn {
+	    float: right;
+	    width: 65%;
+	}
+	.footer-right h5 {
+	    font-size: 2rem;
+	    margin: 0;
+	}
+	.host-services li a {
+	    font-size: 1.6rem;
+	}
+	.reffer-text {
+	    float: left;
+	    width: 100%;
+	    margin-top: 2.5rem;
+	    font-size: 1.5rem;
+	}
+	.reffer {
+	    float: right;
+	    width: 100%;
+	    font-size: 1.6rem;
+	    text-align: center;
+	}
+	.faq-images {
+	    padding-right: 0;
+	    width: 100%;
+	}
+	.faq-right {
+	    padding-left: 0;
+	    width: 100%;
+	}
+}

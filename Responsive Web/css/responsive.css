@@ -1,0 +1,79 @@
+@media screen and (max-width:768px){
+.service {
+	margin-bottom: 50px;
+}
+} 
+
+@media screen and (max-width:480px){
+.banner h2 {
+	font-size: 45px;
+	margin-bottom:15px;
+}
+.banner p {
+	font-size: 25px;
+	line-height: 33px;
+}
+} 
+
+@media screen and (max-width:320px){
+.banner h2 {
+	font-size: 35px;
+}
+.banner p {
+	font-size: 18px;
+	line-height: 24px;
+}
+.service h4 {
+	font-size: 15px;
+}
+.service p {
+	font-size: 13px;
+}
+.portfolio p {
+	font-size: 19px;
+}
+
+.button {
+	font-size: 10px;	
+}
+.button-group .button {
+	margin-right: 0px;
+}
+.contact p {
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.ouraddress {
+	max-width: 290px;
+}
+.lefttag {
+	font-size: 12px !important;
+	background: url(../img/location.png)no-repeat scroll 6px 2px;
+}
+.righttag {
+	font-size: 12px !important;
+	background: url(../img/telephone.png)no-repeat scroll 6px 2px;
+}
+.footersection {
+	padding: 20px;
+}
+.footer1 p {	
+	font-size: 14px;
+}
+}
+@media screen and (max-width:320px){
+.service {
+	margin-bottom: 50px;
+}
+} 
+
+
+
+
+
+
+
+
+
+
+

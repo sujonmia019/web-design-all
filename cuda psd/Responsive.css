@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1024px){
+	html{
+		font-size: 55.5%;
+	}
+	.row {
+	    width: 90%;
+	    margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 980px){
+	.min-nav{
+		display: none;
+	}
+	.mobile-menu span{
+		display: block;
+	}
+}
+@media only screen and (max-width: 768px){
+	html{
+		font-size: 52.5%;
+	}
+	.span_1_of_4 {
+		width: 49.2%;
+	}
+	.span_1_of_4 {
+		margin-left: 0;
+	}
+	.about-us-section .a-image {
+	    margin-right: 0rem;
+	}
+	.team-section p {
+	    width: 80%;
+	    margin: 10px auto;
+	}
+}
+@media only screen and (max-width: 480px){
+	.hero-text {
+	    width: 88%;
+	}
+	.text-description {
+	    font-size: 1.8rem;
+	    width: 100%;
+	    margin: 15px auto;
+	}
+	.about-us-section .a-image {
+	    float: none;
+	    width: 100%;
+	}
+	.about-us-section .a-text {
+		float: none;
+		width: 100%;
+	}
+	.about-us-section .a-text p {
+		text-align: center;
+		font-size: 1.8rem;
+		margin-top: 2rem;
+	}
+	.about-us-section .a-text h4 {
+	    text-align: center;
+
+	}
+	.about-us-section .a-text span {
+		text-align: center;
+	}
+	.footer-section ul li {
+	    margin: 0 1rem;
+	}
+	.footer-section ul li a {
+		font-size: 1.5rem;
+	}
+}
+@media only screen and (max-width: 320px){
+	html{
+		font-size: 43.5%;
+	}
+	.span_1_of_4 {
+	    width: 100%;
+	}
+	.box .chart {
+		height: 15.5rem;
+		width: 16rem;
+	}
+	.box canvas {
+		position: absolute;
+		top: -15px;
+		left: 0;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	.footer-section ul li {
+	    margin: .2rem 3rem;
+	}
+	.footer-section ul li a {
+	    font-size: 1.8rem;
+	}
+}

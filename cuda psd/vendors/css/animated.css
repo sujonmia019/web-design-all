@@ -1,0 +1,17 @@
+.box{
+	margin-top: 5rem;
+}
+.box .chart{
+	position: relative;
+	height: 12.5rem;
+	width: 12rem;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 3rem;
+	line-height: 10.3rem;
+}
+.box canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+}

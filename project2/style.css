@@ -1,0 +1,91 @@
+@font-face{
+	font-family: "LatoBold"; 
+	font-family: "LatoRegular"; 
+	src:url('fonts/LatoLatin-Bold.woff') format('woff'); 
+	src:url('fonts/LatoRegular.woff') format('woff'); 
+}
+/**CSS Style Sheet Starting Now**/
+body{
+ 	font-family:"LatoRegular"; 
+}
+.link2{
+	line-height: 6em;
+}
+
+
+.sub p{
+	
+	line-height: 25px;
+	font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+
+	font-family:"LatoRegular"; 
+}
+.right p{
+	margin-bottom: 66px;
+	font-size: 15px;
+	line-height: 25px;
+}
+.right1 p{
+	margin-bottom: 65px;
+	font-size: 15px;
+	line-height: 25px;
+}
+.right2 p{
+	margin-bottom: 65px;
+	font-size: 15px;
+	line-height: 25px;
+}
+.slider i{
+	font-size: 30px;
+}
+.slider p{
+	letter-spacing: 1px;
+}
+.slider h4{
+	font-size: 25px;
+}
+.discreption{
+	background: #282F35;
+}
+.button1 a{
+	border:1px solid #FFFFFF;
+	background: transparent;
+}
+.open input {
+	font-size: 15px;
+	padding: 11px 31px;
+	border: 1px solid #e0e0e0;
+}
+.open a {
+	padding: 13px 20px;
+	border: 1px solid #64C29E;
+	color: #FFF;
+	background: #64C29E;
+	font-size: 18px;
+}
+.text{
+	font-size: 14px;
+}
+.social a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.social a:first-child{
+	background: #79CCF0;
+	padding: 7px 7px;
+	border-radius: 100%;
+}
+.social a:nth-child(2){
+	background: #5279BB;
+	padding: 7px 11px;
+	border-radius: 100%;
+}
+.social a:last-child{
+	background: #E85653;
+	padding: 7px 8px;
+	border-radius: 100%;
+}
+/**CSS Style Sheet End**/
